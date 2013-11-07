@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\SystemFiles">
+      <UniqueIdentifier>{3f0a8ad5-ce6c-45c0-ae30-f370a2488dde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SystemFiles">
+      <UniqueIdentifier>{8b4010a6-7491-47c1-8430-a6b398f6d86d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Files">
+      <UniqueIdentifier>{2f53d054-e910-4cac-a136-eb1094d4764f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Files\Static color">
+      <UniqueIdentifier>{0b574a59-2440-4025-af95-1c5e5b24c06a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Files\Texturing">
+      <UniqueIdentifier>{be48cf87-b1b5-45c3-8fa2-0fdd458de807}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SystemFiles\Base">
+      <UniqueIdentifier>{5a9d3711-c0c1-4525-8fee-d81e42205f69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SystemFiles\Base\Audio">
+      <UniqueIdentifier>{9eb2775d-14ac-49f3-886f-665b3a835e99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SystemFiles\Base\models">
+      <UniqueIdentifier>{868aa79a-d668-45c3-aa02-09db085df4fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SystemFiles\Base\Scenes">
+      <UniqueIdentifier>{133a8cd6-ccd1-48d9-bfbd-d1b658c30cca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SystemFiles\Base\Colouring">
+      <UniqueIdentifier>{6b2330bc-36f8-47fc-bb40-56bd9090d5e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SystemFiles\Base">
+      <UniqueIdentifier>{0e4d622b-04be-4c9a-8169-47dd607e5560}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SystemFiles\Base\models">
+      <UniqueIdentifier>{5f1522ee-6e94-45fc-bd10-caf29e411cca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SystemFiles\Base\Scenes">
+      <UniqueIdentifier>{28101d27-a6f8-4ef1-b930-fa9b3b06acce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SystemFiles\Base\Audio">
+      <UniqueIdentifier>{3cdb5a4a-f244-47c0-bda1-98bf88e8eca3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SystemFiles\Base\Colouring">
+      <UniqueIdentifier>{8ffcf35d-bfbb-48b4-bccd-42252f791e02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SystemFiles\Base\Camera">
+      <UniqueIdentifier>{19f6e04f-5715-4982-85c3-a71195d3795d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SystemFiles\Base\Camera">
+      <UniqueIdentifier>{63517297-609d-4cb4-baf5-133bb1fdf34f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelClass.h">
+      <Filter>Header Files\SystemFiles\Base\models</Filter>
+    </ClInclude>
+    <ClInclude Include="Directx11Init.h">
+      <Filter>Header Files\SystemFiles\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsManager.h">
+      <Filter>Header Files\SystemFiles\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio.h">
+      <Filter>Header Files\SystemFiles\Base\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="2DAudio.h">
+      <Filter>Header Files\SystemFiles\Base\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemManager.h">
+      <Filter>Header Files\SystemFiles\Base\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>Header Files\SystemFiles\Base\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="ColourShader.h">
+      <Filter>Header Files\SystemFiles\Base\Colouring</Filter>
+    </ClInclude>
+    <ClInclude Include="Texturing.h">
+      <Filter>Header Files\SystemFiles\Base\Colouring</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureShader.h">
+      <Filter>Header Files\SystemFiles\Base\Colouring</Filter>
+    </ClInclude>
+    <ClInclude Include="InputsManager.h">
+      <Filter>Header Files\SystemFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelTriangle.h">
+      <Filter>Header Files\SystemFiles\Base\models</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraClass.h">
+      <Filter>Header Files\SystemFiles\Base\Camera</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelClass.cpp">
+      <Filter>Source Files\SystemFiles\Base\models</Filter>
+    </ClCompile>
+    <ClCompile Include="Directx11Init.cpp">
+      <Filter>Source Files\SystemFiles\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsManager.cpp">
+      <Filter>Source Files\SystemFiles\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemManager.cpp">
+      <Filter>Source Files\SystemFiles\Base\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio.cpp">
+      <Filter>Source Files\SystemFiles\Base\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="2DAudio.cpp">
+      <Filter>Source Files\SystemFiles\Base\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>Source Files\SystemFiles\Base\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="ColourShader.cpp">
+      <Filter>Source Files\SystemFiles\Base\Colouring</Filter>
+    </ClCompile>
+    <ClCompile Include="Texturing.cpp">
+      <Filter>Source Files\SystemFiles\Base\Colouring</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureShader.cpp">
+      <Filter>Source Files\SystemFiles\Base\Colouring</Filter>
+    </ClCompile>
+    <ClCompile Include="InputsManager.cpp">
+      <Filter>Source Files\SystemFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelTriangle.cpp">
+      <Filter>Source Files\SystemFiles\Base\models</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraClass.cpp">
+      <Filter>Source Files\SystemFiles\Base\Camera</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\color.ps">
+      <Filter>Shader Files\Static color</Filter>
+    </None>
+    <None Include="Shaders\color.vs">
+      <Filter>Shader Files\Static color</Filter>
+    </None>
+    <None Include="Shaders\texture.ps">
+      <Filter>Shader Files\Texturing</Filter>
+    </None>
+    <None Include="Shaders\texture.vs">
+      <Filter>Shader Files\Texturing</Filter>
+    </None>
+  </ItemGroup>
+</Project>
